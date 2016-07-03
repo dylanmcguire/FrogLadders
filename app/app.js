@@ -6,7 +6,8 @@ angular.module('myApp', [
   'app.landing',
   'app.products',
   'app.about',
-  'app.contact'
+  'app.contact',
+  'angular-carousel'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');
